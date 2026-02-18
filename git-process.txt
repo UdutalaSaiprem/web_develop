@@ -1,0 +1,66 @@
+Microsoft Windows [Version 10.0.26200.7840]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\24VD5A6610>git init
+Reinitialized existing Git repository in E:/24VD5A6610/.git/
+
+E:\24VD5A6610>git config --global user.name"UdutalaSaiprem"
+
+E:\24VD5A6610>git config --global user.email"saipremudutala@gmail.com"
+
+E:\24VD5A6610>git config --global --list
+user.name=saiprem
+user.email=saipremudutala@gmail.com
+safe.directory=E:/24VD5A6610
+
+
+
+E:\24VD5A6610>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is 4C64-C083
+
+ Directory of E:\24VD5A6610
+
+02/18/2026  10:40 AM    <DIR>          .
+01/28/2026  11:24 AM               129 HelloWorld.java
+02/18/2026  10:40 AM             2,898 Registration_form.html
+               2 File(s)          3,027 bytes
+               1 Dir(s)  49,053,007,872 bytes free
+
+E:\24VD5A6610>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+E:\24VD5A6610>git init
+Reinitialized existing Git repository in E:/24VD5A6610/.git/
+
+E:\24VD5A6610>git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+E:\24VD5A6610>git commit -m "first commit"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+E:\24VD5A6610>git branch -M main
+
+E:\24VD5A6610>git remote add origin https://github.com/UdutalaSaiprem/Registration_form.git
+error: remote origin already exists.
+
+E:\24VD5A6610>git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.12 KiB | 1.12 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/UdutalaSaiprem/java.git
+   fbdcbd5..acaeb9b  main -> main
+branch 'main' set up to track 'origin/main'.
+
+E:\24VD5A6610>
